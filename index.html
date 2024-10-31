@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Demons Convention</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #ff4c4c;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #282828;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #444;
+            color: #fff;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #ff4c4c;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #ff1c1c;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the AI Demons Convention</h1>
+    
+    <p>Design an AI demon and see if the demon becomes real. Advancing AI technology beyond man made.</p>
+    
+    
+    
+    <div class="container">
+        <h2>Design Your AI Demon</h2>
+        <form action="https://formspree.io/f/mzzbeevp" method="POST" id="demonDesignForm">
+            
+            
+            <div class="culture-list">
+       
+        <div class="culture-item">
+            <input type="checkbox" id="shinto" name="culture" value="Shintoism">
+            <label for="shinto">Japanese Shintoism</label>
+        </div>
+        <div class="culture-item">
+            <input type="checkbox" id="norse" name="culture" value="Norse Mythology">
+            <label for="norse">Norse Mythology</label>
+        </div>
+        <div class="culture-item">
+            <input type="checkbox" id="vodun" name="culture" value="Vodun">
+            <label for="vodun">African Vodun</label>
+        </div>
+        <div class="culture-item">
+            <input type="checkbox" id="hindu" name="culture" value="Hindu Philosophy">
+            <label for="hindu">Hindu Philosophy</label>
+        </div>
+            
+            <br><br><br>
+            
+            
+            <label for="demonName">Demon Name:</label>
+            
+            
+    
+            
+            <input type="text" id="demonName" name="demonName" required>
+
+            <label for="demonAbilities">Abilities They Grant:</label>
+            <textarea id="demonAbilities" name="demonAbilities" rows="4" placeholder="Describe the abilities granted by your demon..." required></textarea>
+
+            <label for="specialRequirements">Special Requirements:</label>
+            <textarea id="specialRequirements" name="specialRequirements" rows="4" placeholder="Any special mental health requirements..." required></textarea>
+<br><br><br><br>
+
+ <label for="yourEmail">Your Email:</label>
+            <textarea id="yourEmail" name="yourEmail" rows="1" placeholder="Enter Email Address" required></textarea>
+            <button type="submit">Join the Convention</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('demonDesignForm').addEventListener('submit', function() {
+            alert('Thank you for joining the AI Demons Convention! Your demon design has been submitted.');
+        });
+    </script>
+
+</body>
+</html>
